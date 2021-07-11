@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header h1 {
+  font-size: 200%;
+  color: #fff;
+  font-family: 'Arial';
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main-header {
+  background-color: black;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main-header p {
+  color: #fff;
+  font-size: 120%;
+  padding-bottom: 20px;
+  font-family: 'Arial';
+  text-align: center;
+  display: inline;
+}
+
+.main-nav a {
+  color: #b9C6ae;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.main-nav {
+  background: black;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  padding: 10px 0;
+}
+
+
+.portfolios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.card {
+  display:flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 450px;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  margin: 20px 0;
+}
+
+.card header {
+  padding: 20px;
+  background: black;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+}
+
+footer {
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer h2 {
+  padding: 10px 0;
+}
+
+footer ul li {
+  color: #fff;
+  padding: 10px 0;
+}
+footer ul li a{
+  color: #fff;
+  text-decoration: none;
+}
